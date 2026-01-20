@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Spark
+spark-warehouse/
+metastore_db/
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
