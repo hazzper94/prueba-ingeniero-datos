@@ -6,10 +6,6 @@ def normalize_dates(df: DataFrame) -> DataFrame:
     """
     Normaliza columnas de fecha y timestamp.
 
-    - event_time -> timestamp
-    - ingestion_date -> date
-
-    Registros inválidos se mantienen como null.
     """
 
     return (
